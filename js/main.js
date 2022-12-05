@@ -19,3 +19,11 @@ btn.onclick = function getNewColor() {
 hex.oninput = function getNewColorByInput() {
   fill.style.background = hex.value;
 };
+// Add color when making a hover
+fill.onmouseover = function getNewColorByMouseover() {
+  fill.style.background = "#208790";
+};
+// Remove the color when removing the hover
+fill.onmouseout = function getNewColorByMouseout() {
+  fill.style.background = "";
+};
