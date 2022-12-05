@@ -25,5 +25,5 @@ fill.onmouseover = function getNewColorByMouseover() {
 };
 // Remove the color when removing the hover
 fill.onmouseout = function getNewColorByMouseout() {
-  fill.style.background = "";
+  fill.style.background = hex.value;
 };
